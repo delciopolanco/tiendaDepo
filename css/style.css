@@ -1,0 +1,96 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #ccc;
+  letter-spacing: 2px;
+}
+
+.social-icon-box {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.social-icon-box ul {
+  list-style: none;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-icon-box ul li {
+  display: inline-block;
+  padding: 15px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 100%;
+  margin: 0px 10px;
+}
+
+.social-icon-box ul li a {
+  width: 100%;
+  display: block;
+  color: #fff;
+  font-size: 25px
+}
+
+.social, .progressbar, form {
+  padding: 15px;
+}
+
+
+.transition:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.whatsapp {
+  background-color: #00e676;
+}
+.facebook {
+  background-color: #4267b2;
+}
+
+.instagram {
+  background-color: #e4405f;
+}
+
+section {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+section img {
+  width: 35%;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  position: relative;
+  bottom: 0px;
+  vertical-align: baseline;
+  background-color: #313131;
+  margin-top: 50px;
+  height: 550px;
+}
