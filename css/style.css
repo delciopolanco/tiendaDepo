@@ -16,6 +16,23 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
+.woocommerce {
+  width: 100%;
+  list-style: none;
+}
+
+.woocommerce li {
+  display: inline-block;
+  margin: 0px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.woocommerce li a{
+  font-size: 20px;
+  margin: 20px;
+}
+
 .social-icon-box {
   width: 100%;
   height: auto;
