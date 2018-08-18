@@ -14,5 +14,10 @@
   ],
   "author": "delciopolanco",
   "private": true,
-  "license": "Copyrigth"
+  "license": "Copyrigth",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "bootstrap": "^3.3.7",
+    "typeface-open-sans": "0.0.54"
+  }
 }
